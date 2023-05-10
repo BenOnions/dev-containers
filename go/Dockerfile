@@ -6,7 +6,7 @@ RUN apk add --no-cache build-base git || apt-get update && apt-get -y install gc
 
 # Install Delve (https://github.com/go-delve/delve)
 RUN go install github.com/go-delve/delve/cmd/dlv@latest;
-RUN go install github.com/cosmtrek/air@latest
+RUN go install github.com/cosmtrek/air@latest;
 
 # Create project directory (workdir)
 WORKDIR /app
