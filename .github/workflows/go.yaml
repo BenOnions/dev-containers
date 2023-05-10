@@ -22,7 +22,7 @@ jobs:
   go:
     runs-on: ubuntu-latest
     strategy:
-      fail-fast: false
+      fail-fast: true
       matrix:
         include:
           - tag: 1.20-alpine
