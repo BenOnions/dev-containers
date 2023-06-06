@@ -1,4 +1,4 @@
-ARG TAG=1.20-bulseye
+ARG TAG=1.20-bullseye
 FROM golang:${TAG}
 
 # Install build packages
